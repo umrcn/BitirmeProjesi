@@ -1,0 +1,38 @@
+<Html> <!-- This tag is compulsory for any HTML document. -->   
+    <Head>  
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/home.css') }}">
+        <!-- <link rel="stylesheet" href="C:\Users\clins\Downloads\skin cancer\static\css\home.css"> -->
+    <style>
+            body {
+              background-image: url('https://image.freepik.com/free-vector/medical-healthcare-blue-color_1017-26807.jpg');
+              background-repeat:no-repeat;
+               background-size:cover;
+            }
+    </style>
+    </Head>  
+    <Body>  
+        <div class="topnav">
+                <a href="">&#160; &#160; &#160; &#160; &#160;&#160; &#160; 
+                    &#160; &#160; &#160; &#160; &#160;&#160;&#160; &#160; &#160; &#160; &#160; &#160;
+                    &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;
+                    &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; 
+                    &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; 
+                    &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;&#160;&#160;&#160;&#160;&#160;
+                    &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;CANCER DETECTION SYSTEM</a>
+            
+          </div>
+
+          <div style=margin-top:50px class="row">
+
+            <div  style=margin-left:150px class="column" class="img-with-text" >
+              <img src="{{url_for('static', filename='Skinluna4lage.jpg')}}" alt="Melo" style="width:100%">
+              <p align="center"><a href=index ><button class=grey style="height:50px;width:300px;font-family:verdana;font-size:120%;">Melanoma Detection</button></a></p>
+            </div>
+            <div style="margin-left:100px" class="column" class="img-with-text">
+              <img src="{{url_for('static', filename='human-brain-concept-intelligence-white-background-56063305.jpg')}}" alt="Forest" style="width:110%">
+              <p align="center"><a href=index_brain ><button class=grey style="height:50px;width:300px;font-family:verdana;font-size:120%;">Brain Tumor Detection</button></a></p>
+            </div>
+          </div>
+
+    </Body>  
+    </Html>  
